@@ -1,0 +1,12 @@
+html {
+   font-size: 62.5%;
+   color: #fff;
+}
+
+.display-flex {
+   display: flex;
+}
+
+.justify-center {
+   justify-content: center;
+}

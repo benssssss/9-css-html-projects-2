@@ -1,0 +1,79 @@
+.car-name {
+    font-family: var(--title-font);
+    font-size: 3.9rem;
+    margin-top: 3.4rem;
+}
+
+.car-description {
+    line-height: 2.4rem;
+    color: var(--transparent-color);
+    margin: 2.8rem 0 4.2rem;
+    font-weight: 300;
+}
+
+.learn-button,
+.car-description {
+    width: 230px;
+    font-size: 1.5rem;
+}
+
+.learn-button {
+    font-weight: 400;
+    padding: 1.3rem 3rem;
+    border: solid 2px #fff;
+    border-radius: 3rem;
+    color: #fff;
+}
+
+.learn-button:hover {
+    background-color: #fff;
+}
+
+.sedans .learn-button:hover {
+    color: var(--sedans-background-color);
+}
+
+.suv .learn-button:hover {
+    color: var(--suv-background-color);
+}
+
+.luxury .learn-button:hover {
+    color: var(--luxury-background-color);
+}
+
+.sedans,
+.background-sedans {
+    background-color: var(--sedans-background-color);
+    border-radius: 1.3rem 1.3rem 0 0;
+}
+
+.suv,
+.background-suv {
+    background-color: var(--suv-background-color);
+}
+
+.background-luxury,
+.luxury {
+    background-color: var(--luxury-background-color);
+    border-radius: 0 0 1.3rem 1.3rem;
+}
+
+.background-sedans,
+.background-suv,
+.background-luxury {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 1080px) {
+
+    .background-luxury,
+    .luxury {
+        border-radius: 0rem 1rem 1rem 0rem;
+    }
+
+    .sedans,
+    .background-sedans {
+        border-radius: 1rem 0rem 0rem 1rem;
+    }
+}
