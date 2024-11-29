@@ -1,0 +1,127 @@
+html {
+    font-family: var(--geral-font);
+}
+
+body {
+    background-color: var(--light-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: var(--soft-color);
+    width: 320px;
+    border-radius: 1.2rem;
+}
+
+picture {
+    display: block;
+    height: 225px;
+    width: 320px;
+}
+
+.mobile-picture {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.title,
+.price {
+    font-family: var(--alternative-font);
+    font-size: 2.9rem;
+    color: var(--title-color);
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+
+.description-text {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--gray-color);
+    font-weight: 600;
+}
+
+.info-container {
+    padding: 2.3rem;
+    width: 320px;
+}
+
+.secondary-text {
+    font-weight: 500;
+    color: var(--gray-color);
+    font-size: 1.4rem;
+}
+
+.letter-spacing {
+    letter-spacing: .4rem;
+}
+
+.price-info {
+    margin-top: 1.3rem;
+    align-items: center;
+}
+
+.price {
+    align-self: center;
+    height: 40px;
+    color: var(--price-color);
+    margin-right: 1.6rem;
+}
+
+.buy-button a {
+    margin-top: .5rem;
+    width: 274px;
+    background-color: var(--price-color);
+    padding: 1.4rem 7rem;
+    border-radius: 1rem;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.text-button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--soft-color);
+}
+
+.buy-button a:hover {
+    background-color: var(--title-color);
+}
+
+.taxado {
+    text-decoration: line-through;
+}
+
+@media (min-width: 800px) {
+    .main {
+        width: 640px;
+        display: flex;
+    }
+
+    .info-container {
+        height: 480px;
+    }
+
+    .mobile-picture {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .text-info {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .description-text {
+        font-size: 1.6rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
