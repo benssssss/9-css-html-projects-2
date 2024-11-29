@@ -1,0 +1,9 @@
+body {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: #000000;
+}
