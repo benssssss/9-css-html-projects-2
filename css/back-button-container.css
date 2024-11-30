@@ -1,0 +1,33 @@
+.back-button {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img {
+    height: 50px;
+    transform: rotate(180deg);
+    padding: .2rem;
+    margin: 1rem;
+}
+
+.back-text h2 {
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+}
+
+.back-link-dark {
+    color: #000000;
+}
+
+.back-link-light {
+    color: #ffffff;
+}
+
+.back-button picture {
+    height: 100%;
+    width: 70px;
+}

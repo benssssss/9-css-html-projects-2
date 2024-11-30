@@ -10,13 +10,14 @@ body {
 }
 
 .background {
-    width: 1440px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     height: 100vh;
     display: flex;
     background-color: var(--main-color);
     background-image: url('../images/order-summary/pattern-background-desktop.svg');
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
