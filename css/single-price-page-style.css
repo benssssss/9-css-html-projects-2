@@ -1,0 +1,8 @@
+html {
+    font-family: var(--main-font);
+    background-color: bisque;
+}
+
+.main {
+    width: 350px;
+}
