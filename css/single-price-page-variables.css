@@ -1,0 +1,9 @@
+:root {
+    --main-color: hsl(179, 62%, 43%);
+    --main-inverse-color: hsl(71, 73%, 54%);
+
+    --Light-color: hsl(204, 43%, 93%);
+    --soft-Blue: hsl(218, 22%, 67%);
+
+    --main-font: 'Karla';
+}
