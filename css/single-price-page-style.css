@@ -35,8 +35,8 @@ a {
     color: var(--light-color);
 }
 
-.soft-blue {
-    color: var(--soft-Blue);
+.soft-gray {
+    color: var(--soft-gray);
 }
 
 .main-color {
@@ -52,14 +52,39 @@ a {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     line-height: 2.5rem;
 }
 
 p {
     font-size: 1.5rem;
+}
+
+.size-2 {
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 3.1rem;
+}
+
+.price-time {
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.time {
+    align-self: center;
+    font-size: 1.4rem;
+}
+
+.sign-up-button {
+    background-color: var(--main-inverse-color);
+    padding: 2rem 5rem;
+    text-align: center;
+    border-radius: 1.2rem;
 }
