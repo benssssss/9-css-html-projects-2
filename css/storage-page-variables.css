@@ -1,0 +1,8 @@
+:root {
+    --main-soft-color: hsl(243, 100%, 93%);
+    --gray: hsl(240, 2%, 35%);
+    --main-color: hsl(228, 56%, 26%);
+    --dark-main: hsl(229, 57%, 11%);
+
+    --main-font: 'Raleway';
+}
