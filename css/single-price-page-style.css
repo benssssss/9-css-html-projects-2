@@ -1,8 +1,65 @@
 html {
     font-family: var(--main-font);
-    background-color: bisque;
+    background-color: #000000;
 }
 
 .main {
-    width: 350px;
+    width: 315px;
+    margin-top: 5rem;
+}
+
+.title-desription,
+.subscription-section,
+.footer {
+    padding: 2.6rem;
+}
+
+.title-desription {
+    background-color: var(--light-color);
+}
+
+.subscription-section {
+    background-color: var(--main-color);
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light-color,
+a {
+    color: var(--light-color);
+}
+
+.soft-blue {
+    color: var(--soft-Blue);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.main-inverse-color {
+    color: var(--main-inverse-color);
+}
+
+.margin-top-title-section {
+    margin-top: 2.3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
