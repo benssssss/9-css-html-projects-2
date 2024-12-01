@@ -1,6 +1,10 @@
 body {
     flex-direction: column;
     align-items: center;
+    background-image: url('../images/3-columns/main-background.png');
+    background-position: center;
+    background-size: cover;
+    font-family: var(--description-font);
 }
 
 .container {
@@ -10,32 +14,33 @@ body {
 }
 
 .column-main {
-    font-family: var(--description-font);
-    background-color: #F2F2F2;
     width: 320px;
     min-height: 100vh;
     margin: 2rem 0;
+    border-radius: 1rem;
 }
 
+.icons {
+    height: 50px;
+}
 
-
-.car-name {
+.name {
     font-family: var(--title-font);
     font-size: 3.9rem;
-    margin-top: 3.4rem;
+    margin-top: 1.6rem;
+    width: 120px;
 }
 
 .car-description {
-    line-height: 2.4rem;
-    color: var(--transparent-color);
-    margin: 2.8rem 0 4.2rem;
-    font-weight: 300;
+    line-height: 2.2rem;
+    margin: 1rem 0 4rem;
+    font-weight: 400;
 }
 
 .learn-button,
 .car-description {
     width: 230px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .learn-button {
@@ -50,51 +55,77 @@ body {
     background-color: #fff;
 }
 
-.sedans .learn-button:hover {
-    color: var(--sedans-background-color);
+.michael-text-color {
+    color: var(--michael-color);
 }
 
-.suv .learn-button:hover {
-    color: var(--suv-background-color);
-}
-
-.luxury .learn-button:hover {
-    color: var(--luxury-background-color);
-}
-
-.sedans,
-.background-sedans {
-    background-color: var(--sedans-background-color);
+.background-michael {
+    background-image: url('../images/3-columns/backgroun-mick.png');
+    background-position: center;
+    background-size: cover;
     border-radius: 1.3rem 1.3rem 0 0;
 }
 
-.suv,
-.background-suv {
-    background-color: var(--suv-background-color);
+.michael .learn-button:hover {
+    background-color: var(--michael-color);
+    border: 0px;
 }
 
-.background-luxury,
-.luxury {
-    background-color: var(--luxury-background-color);
-    border-radius: 0 0 1.3rem 1.3rem;
+.michael .learn-button:hover {
+    color: var(--light-color);
 }
 
-.background-sedans,
-.background-suv,
-.background-luxury {
-    display: flex;
-    justify-content: center;
+.background-trevor {
+    background-image: url('../images/3-columns/t-backgroun.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.trevor-text-color {
+    color: var(--t-color);
+}
+
+.trevor .learn-button:hover {
+    background-color: var(--t-color);
+    border: 0px;
+}
+
+.trevor .learn-button:hover {
+    color: var(--light-color);
+}
+
+.background-franklin {
+    background-image: url('../images/3-columns/frank-backgroun.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.franklin-text-color {
+    color: var(--frank-color);
+}
+
+.franklin .learn-button:hover {
+    background-color: var(--frank-color);
+    border: 0px;
+}
+
+.franklin .learn-button:hover {
+    color: var(--light-color);
+}
+
+.background-franklin {
+    border-radius: 0rem 0rem 1rem 1rem;
 }
 
 @media(min-width: 1080px) {
 
-    .background-luxury,
-    .luxury {
+    .background-franklin,
+    .franklin {
         border-radius: 0rem 1rem 1rem 0rem;
     }
 
-    .sedans,
-    .background-sedans {
+    .michael,
+    .background-michael {
         border-radius: 1rem 0rem 0rem 1rem;
     }
 
