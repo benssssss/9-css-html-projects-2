@@ -15,22 +15,22 @@ body {
     justify-content: center;
     height: 100vh;
     display: flex;
-    background-color: var(--main-color);
-    background-image: url('../images/order-summary/pattern-background-desktop.svg');
-    background-size: contain;
+    background-image: url('../images/order-summary/main-background.png');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main {
     width: 350px;
-    background-color: var(--very-soft-color);
+    background: url('../images/order-summary/card-background.png');
+    background-size: cover;
     border-radius: 1.5rem;
     margin: 0 1rem;
 }
 
 picture {
     display: block;
-    height: 170px;
+    height: 20%;
     width: 100%;
 }
 
@@ -49,11 +49,10 @@ picture {
     margin-top: 1rem;
     align-self: center;
     text-align: center;
-    width: 250px;
 }
 
 .title {
-    color: var(--dark-main-color);
+    color: var(--main-color);
     font-weight: 900;
     font-size: 2.2rem;
 }
@@ -61,8 +60,11 @@ picture {
 .plan-data {
     justify-content: space-between;
     align-items: center;
-    width: 250px;
-    margin: 3rem 0;
+    width: 100%;
+    margin: 3rem 0 1.5rem 0;
+    background-color: var(--dark-main-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
 }
 
 .plan-data,
@@ -81,26 +83,26 @@ picture {
 .description,
 .price {
     color: var(--soft-color);
-    font-weight: 600;
+    font-weight: 300;
     line-height: 2.5rem;
 }
 
 .secondary-text {
-    color: var(--dark-main-color);
+    color: var(--soft-color);
     font-size: 1.4rem;
     font-weight: 900;
 }
 
 .change,
 .change a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: underline;
-    color: var(--strong-main-color);
+    color: var(--main-color);
 }
 
 .price {
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .icon {
@@ -110,6 +112,8 @@ picture {
 .buttons-section {
     text-align: center;
     margin: 1rem 0;
+    align-self: center;
+    width: 100%;
 }
 
 .payment-button a,
@@ -120,14 +124,15 @@ picture {
 
 .payment-button a {
     color: var(--very-soft-color);
-    background-color: var(--strong-main-color);
-    padding: 1.2rem 3rem;
+    background-color: var(--main-color);
+    padding: 1.5rem 3rem;
+    width: 100%;
     border-radius: 1.3rem;
 }
 
 .payment-button a,
 .cancel-button a {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -140,7 +145,7 @@ picture {
 }
 
 .payment-button a:hover {
-    background-color: var(--soft-color);
+    background-color: var(--dark-main-color);
 }
 
 .change a:hover {
@@ -148,12 +153,15 @@ picture {
 }
 
 .cancel-button a:hover {
-    color: var(--dark-main-color);
+    color: var(--main-color);
 }
 
-@media (max-width: 380px) {
-    .background {
-        background-size: auto;
-        background-image: url('../images/order-summary/pattern-background-mobile.svg');
+@media (min-width: 400px) {
+    .main {
+        width: 395px;
+    }
+
+    .plan-data {
+        padding: 1.5rem 2.3rem;
     }
 }
