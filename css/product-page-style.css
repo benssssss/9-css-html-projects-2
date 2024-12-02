@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background-color: var(--light-color);
+    background: url('../images/product-page/main-background.png');
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,7 +13,7 @@ body {
 }
 
 .main {
-    background-color: var(--soft-color);
+    background-color: var(--inverse-color);
     width: 320px;
     border-radius: 1.2rem;
 }
@@ -26,11 +28,23 @@ picture {
     border-radius: 1rem 1rem 0 0;
 }
 
-.title,
+.title {
+    font-family: var(--title-font);
+
+}
+
 .price {
     font-family: var(--alternative-font);
+}
+
+.text-info {
+    width: 260px;
+}
+
+.title,
+.price {
     font-size: 2.9rem;
-    color: var(--title-color);
+    color: var(--main-color);
     margin-top: 1rem;
     line-height: 3rem;
 }
@@ -39,7 +53,7 @@ picture {
     margin-top: 1.5rem;
     font-size: 1.3rem;
     line-height: 2rem;
-    color: var(--gray-color);
+    color: var(--dark-color);
     font-weight: 600;
 }
 
@@ -50,7 +64,7 @@ picture {
 
 .secondary-text {
     font-weight: 500;
-    color: var(--gray-color);
+    color: var(--dark-color);
     font-size: 1.4rem;
 }
 
@@ -66,14 +80,14 @@ picture {
 .price {
     align-self: center;
     height: 40px;
-    color: var(--price-color);
+    color: var(--main-color);
     margin-right: 1.6rem;
 }
 
 .buy-button a {
     margin-top: .5rem;
     width: 274px;
-    background-color: var(--price-color);
+    background-color: var(--main-color);
     padding: 1.4rem 7rem;
     border-radius: 1rem;
     justify-content: center;
@@ -81,14 +95,18 @@ picture {
     align-items: center;
 }
 
+.buy-button {
+    background-color: transparent;
+}
+
 .text-button {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--soft-color);
+    color: var(--light-color);
 }
 
 .buy-button a:hover {
-    background-color: var(--title-color);
+    background-color: var(--dark-color);
 }
 
 .taxado {
@@ -121,7 +139,7 @@ picture {
     }
 
     .title {
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 4rem;
     }
 }

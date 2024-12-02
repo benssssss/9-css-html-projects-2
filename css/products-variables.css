@@ -1,10 +1,10 @@
 :root {
-    --title-color: hsl(212, 21%, 14%);
-    --gray-color: #575757;
-    --price-color: hsl(158, 36%, 37%);
-    --soft-color: hsl(30, 38%, 92%);
+    --main-color: #4666AA;
+    --dark-color: #000000;
+    --inverse-color: #FFBE67;
     --light-color: #E0E5E4;
 
     --geral-font: "Montserrat";
     --alternative-font: "Fraunces";
+    --title-font: "Poppins";
 }
