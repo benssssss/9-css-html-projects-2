@@ -21,14 +21,14 @@
     width: 120px;
 }
 
-.car-description {
+.description {
     line-height: 2.2rem;
     margin: 1rem 0 4rem;
     font-weight: 400;
 }
 
 .learn-button,
-.car-description {
+.description {
     width: 230px;
     font-size: 1.4rem;
 }

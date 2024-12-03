@@ -7,21 +7,22 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .main {
     background-color: var(--inverse-color);
-    width: 320px;
     border-radius: 1.2rem;
 }
 
-picture {
+.main,
+.main picture {
+    width: 320px;
+}
+
+.main picture {
     display: block;
     height: 225px;
-    width: 320px;
 }
 
 .mobile-picture {
@@ -30,7 +31,6 @@ picture {
 
 .title {
     font-family: var(--title-font);
-
 }
 
 .price {
@@ -50,10 +50,18 @@ picture {
 }
 
 .description-text {
-    margin-top: 1.5rem;
-    font-size: 1.3rem;
     line-height: 2rem;
+}
+
+.description-text,
+.price-info {
+    margin-top: 1.5rem;
+}
+
+.description-text,
+.light-text {
     color: var(--dark-color);
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -62,26 +70,19 @@ picture {
     width: 320px;
 }
 
-.secondary-text {
-    font-weight: 500;
-    color: var(--dark-color);
-    font-size: 1.4rem;
-}
-
 .letter-spacing {
     letter-spacing: .4rem;
-}
-
-.price-info {
-    margin-top: 1.3rem;
-    align-items: center;
 }
 
 .price {
     align-self: center;
     height: 40px;
-    color: var(--main-color);
     margin-right: 1.6rem;
+}
+
+.buy-button a,
+.price-info {
+    align-items: center;
 }
 
 .buy-button a {
@@ -90,9 +91,7 @@ picture {
     background-color: var(--main-color);
     padding: 1.4rem 7rem;
     border-radius: 1rem;
-    justify-content: center;
     gap: 1.2rem;
-    align-items: center;
 }
 
 .buy-button {

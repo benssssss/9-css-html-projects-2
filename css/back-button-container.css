@@ -4,17 +4,22 @@
     transform: rotate(180deg);
     height: 55px;
     width: 55px;
-    padding: .6rem;
+    padding: .5rem;
 }
 
 .back-button {
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.10);
+    padding: .5rem;
 }
 
 .texts {
-    font-size: .9rem;
+    font-size: 1rem;
     font-family: 'Raleway';
 }
 
@@ -33,7 +38,10 @@
 
 @media (max-width: 800px) {
     .back-button {
-        background-color: #212121;
-        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.10);
     }
 }
