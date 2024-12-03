@@ -20,11 +20,18 @@
 
 /* ----------- single-price ----------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@0;1&display=swap');
+
+@font-face {
+    font-family: "youtube-font";
+    src: url('../fonts/Single-page-AlternateGothic.ttf');
+}
 
 /* ----------- data-storage ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -------- */
 
 * {
     padding: 0;

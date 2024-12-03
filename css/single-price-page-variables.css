@@ -1,10 +1,9 @@
 :root {
-    --alternative-main-color: hsla(179, 95%, 34%, 0.856);
-    --main-color: hsl(179, 62%, 43%);
-    --main-inverse-color: hsl(71, 72%, 46%);
+    --main-color: #212121;
+    --main-inverse-color: #C3352E;
+    --soft-gray: #AAAAAA;
+    --light-color: #FFFFFF;
 
-    --light-color: hsl(206, 23%, 94%);
-    --soft-gray: hsla(0, 0%, 51%, 0.849);
-
-    --main-font: 'Karla';
+    --main-font: 'Source Sans 3';
+    --title-font: 'youtube-font';
 }

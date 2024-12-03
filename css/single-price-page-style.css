@@ -5,6 +5,7 @@ html {
 .main-container {
     height: 100vh;
     align-items: center;
+    background-color: var(--soft-gray);
 }
 
 .main {
@@ -12,123 +13,134 @@ html {
     margin: 0 1rem;
 }
 
-.title-desription {
+.logo-font {
+    font-family: var(--title-font);
+}
+
+.youtube-icon {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.youtube-icon img {
+    height: 35px;
+}
+
+.youtube-icon p {
+    font-size: 2.4rem;
+}
+
+.main-description,
+.hero-info-text {
+    margin-top: .8rem;
+    font-weight: 400;
+}
+
+.main-description {
+    font-size: 3rem;
+}
+
+.hero-info-text {
+    font-size: 1.5rem;
+}
+
+.title-description {
+    height: 280px;
+    padding: 4rem 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscription-section,
+.footer {
+    padding: 3rem 2.6rem;
+    height: 250px;
+}
+
+.title-description {
     border-radius: 1rem 1rem 0 0;
+    background-color: var(--main-color);
+}
+
+.subscription-section {
+    background-color: var(--light-color);
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscription-section .plan-name,
+.why-us {
+    font-weight: 500;
+    font-family: var(--title-font);
+    font-size: 3rem;
+}
+
+.price-time {
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: .8rem;
+}
+
+.price-time .price {
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+.plan-description {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
 }
 
 .footer {
     border-radius: 0 0 1rem 1rem;
-}
-
-.title-desription,
-.subscription-section,
-.footer {
-    padding: 3rem 2.6rem;
-}
-
-.title-desription {
-    background-color: var(--light-color);
-}
-
-.subscription-section {
-    background-color: var(--alternative-main-color);
-}
-
-.footer {
     background-color: var(--main-color);
+}
 
+.sign-up-button-text {
+    background-color: var(--main-inverse-color);
+    color: var(--light-color);
+    padding: 1rem 5rem;
+    text-align: center;
+    border-radius: 1.6rem;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 1.4rem;
+}
+
+.link-footer {
+    margin-top: 1.4rem;
+}
+
+.link-footer a {
+    color: var(--soft-gray);
+}
+
+.link-footer li {
+    font-size: 1.3rem;
+    margin-top: .2rem;
 }
 
 .responsive-bottom {
     flex-direction: column;
 }
 
-.thin {
-    font-weight: 400;
-}
+@media (min-width: 620px) {
 
-.bold {
-    font-weight: 700;
-}
-
-.light-color,
-a {
-    color: var(--light-color);
-}
-
-a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.soft-gray {
-    color: var(--soft-gray);
-}
-
-.main-color {
-    color: var(--main-color);
-}
-
-.main-inverse-color {
-    color: var(--main-inverse-color);
-}
-
-.margin-top-title-section {
-    margin-top: 1.8rem;
-}
-
-h2 {
-    font-size: 1.9rem;
-}
-
-h3 {
-    font-size: 1.35rem;
-    line-height: 2.5rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
-a {
-    font-size: 1.5rem;
-}
-
-.size-2 {
-    font-size: 1.5rem;
-}
-
-.price {
-    font-size: 3.1rem;
-}
-
-.price-time {
-    align-items: center;
-    gap: 1.3rem;
-}
-
-.time {
-    align-self: center;
-    font-size: 1.4rem;
-}
-
-.sign-up-button {
-    background-color: var(--main-inverse-color);
-    padding: 2rem 5rem;
-    text-align: center;
-    border-radius: .7rem;
-}
-
-li a {
-    font-size: 1.3rem;
-    margin-top: .5rem;
-}
-
-@media (min-width: 680px) {
+    .link-footer {
+        margin-top: 0rem;
+    }
 
     .main {
-        width: 660px;
+        width: 600px;
+    }
+
+    .title-description {
+        height: 200px;
     }
 
     .responsive-bottom {
@@ -138,37 +150,7 @@ li a {
     .subscription-section,
     .footer {
         width: 50%;
-    }
-
-    .sign-up-button {
-        height: 55px;
-        line-height: 15px;
-    }
-
-    .title-desription,
-    .subscription-section,
-    .footer {
-        padding: 4rem;
-    }
-
-    .title-desription {
-        padding-right: 5rem;
-    }
-
-    .title-desription h3 {
-        font-size: 1.6rem;
-    }
-
-    .title-desription h2 {
-        font-size: 2.5rem;
-    }
-
-    .title-desription p {
-        font-size: 1.9rem;
-    }
-
-    .title-desription {
-        border-radius: 1rem 1rem 0 0;
+        padding: 3rem 2.6rem;
     }
 
     .footer {
@@ -176,9 +158,27 @@ li a {
     }
 
     .subscription-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         border-radius: 0 0 0 1rem;
+    }
+
+    .price-time .price {
+        font-size: 4rem;
+    }
+
+    .price-time {
+        margin-top: 0;
+    }
+
+    .plan-description {
+        margin-top: .2;
+        font-size: 1.7rem;
+    }
+
+    .link-footer li {
+        font-size: 1.4rem;
+    }
+
+    .sign-up-button-text {
+        margin-top: 0rem;
     }
 }
