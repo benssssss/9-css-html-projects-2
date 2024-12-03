@@ -1,12 +1,8 @@
-/* ----------- 3-column-preview ----------- */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
 
-/* ------------ profile-card -------------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
-
-/* ----------- product-page ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -14,11 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* ----------- oder-summary ----------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-
-/* ----------- single-price ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@0;1&display=swap');
 
@@ -26,8 +18,6 @@
     font-family: "youtube-font";
     src: url('../fonts/Single-page-AlternateGothic.ttf');
 }
-
-/* ----------- data-storage ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
