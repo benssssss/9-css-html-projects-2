@@ -1,23 +1,13 @@
-body {
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../images/3-columns/main-background.png');
-    background-position: center;
-    background-size: cover;
-    font-family: var(--description-font);
-}
-
-.container {
-    width: 320px;
-    height: 440px;
-    padding: 4.8rem;
-}
-
 .column-main {
     width: 320px;
     min-height: 100vh;
     margin: 2rem 0;
     border-radius: 1rem;
+}
+
+.container {
+    height: 440px;
+    padding: 4.8rem;
 }
 
 .icons {
@@ -55,15 +45,37 @@ body {
     background-color: #fff;
 }
 
-.michael-text-color {
-    color: var(--michael-color);
+.main-background,
+.background-michael,
+.background-trevor,
+.background-franklin {
+    background-position: center;
+    background-size: cover;
+}
+
+.main-background {
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/3-columns/main-background.png');
+    font-family: var(--rounded-font);
 }
 
 .background-michael {
     background-image: url('../images/3-columns/backgroun-mick.png');
-    background-position: center;
-    background-size: cover;
-    border-radius: 1.3rem 1.3rem 0 0;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.background-franklin {
+    background-image: url('../images/3-columns/frank-backgroun.png');
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+}
+
+.background-trevor {
+    background-image: url('../images/3-columns/t-backgroun.png');
+}
+
+.michael-text-color {
+    color: var(--michael-color);
 }
 
 .michael .learn-button:hover {
@@ -73,12 +85,6 @@ body {
 
 .michael .learn-button:hover {
     color: var(--light-color);
-}
-
-.background-trevor {
-    background-image: url('../images/3-columns/t-backgroun.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .trevor-text-color {
@@ -94,12 +100,6 @@ body {
     color: var(--light-color);
 }
 
-.background-franklin {
-    background-image: url('../images/3-columns/frank-backgroun.png');
-    background-position: center;
-    background-size: cover;
-}
-
 .franklin-text-color {
     color: var(--frank-color);
 }
@@ -111,10 +111,6 @@ body {
 
 .franklin .learn-button:hover {
     color: var(--light-color);
-}
-
-.background-franklin {
-    border-radius: 0rem 0rem 1rem 1rem;
 }
 
 @media(min-width: 1080px) {

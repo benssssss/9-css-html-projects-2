@@ -1,33 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.back-button .picture {
+    transform: rotate(180deg);
+    height: 55px;
+    width: 55px;
+    padding: .6rem;
+}
+
 .back-button {
-    width: 100%;
-    background-color: transparent;
     position: fixed;
-    top: 0;
     display: flex;
     align-items: center;
 }
 
-.back-button img {
-    height: 50px;
-    transform: rotate(180deg);
-    padding: .2rem;
-    margin: 1rem;
-}
-
-.back-text h2 {
+.texts {
+    font-size: .9rem;
     font-family: 'Raleway';
-    font-size: 1.4rem;
 }
 
-.back-link-dark {
+.white-text,
+.black-text {
+    font-weight: 500;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.black-text {
     color: #000000;
 }
 
-.back-link-light {
-    color: #ffffff;
-}
-
-.back-button picture {
-    height: 100%;
-    width: 70px;
+@media (max-width: 800px) {
+    .back-button {
+        background-color: #212121;
+        position: relative;
+    }
 }
