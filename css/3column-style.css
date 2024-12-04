@@ -1,7 +1,7 @@
 .column-main {
     width: 320px;
     min-height: 100vh;
-    margin: 2rem 0;
+    margin: 8rem 0;
     border-radius: 1rem;
 }
 
@@ -56,22 +56,22 @@
 .main-background {
     flex-direction: column;
     align-items: center;
-    background-image: url('../images/3-columns/main-background.png');
+    background-image: url('../images/3-columns/main-background.jpeg');
     font-family: var(--rounded-font);
 }
 
 .background-michael {
-    background-image: url('../images/3-columns/backgroun-mick.png');
+    background-image: url('../images/3-columns/michael-background.jpg');
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .background-franklin {
-    background-image: url('../images/3-columns/frank-backgroun.png');
+    background-image: url('../images/3-columns/franklin-background.jpeg');
     border-radius: 0rem 0rem 1.5rem 1.5rem;
 }
 
 .background-trevor {
-    background-image: url('../images/3-columns/t-backgroun.png');
+    background-image: url('../images/3-columns/trevor-background.jpg');
 }
 
 .michael-text-color {
