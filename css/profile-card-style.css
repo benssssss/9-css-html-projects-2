@@ -1,7 +1,8 @@
 .main-container {
-    font-family: var(--font-profile-card);
+    font-family: var(--main-font-profile-card);
     color: var(--light-color);
     height: 100vh;
+    min-width: 100%;
     flex-direction: column;
     align-items: center;
     background: url('../images/profile-card/main-background.jpg') no-repeat;
@@ -9,11 +10,10 @@
 }
 
 .main {
-    width: 320px;
+    width: 300px;
     background-color: var(--dark-color);
     border-radius: 1.7rem;
-    margin: 0 1rem;
-    border: 3px solid var(--inverse-color);
+    margin: 0 2rem;
 }
 
 .personal-info .name,
@@ -54,11 +54,15 @@
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
+.avatar-image,
+.main {
+    border: 3px solid var(--inverse-color);
+}
+
 .avatar-image {
     height: 160px;
     width: 160px;
     border-radius: 50%;
-    border: 4px solid var(--inverse-color);
     position: absolute;
     top: -10rem;
 }
