@@ -4,7 +4,7 @@ body {
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    background: url('../images/profile-card/main-background.png') no-repeat;
+    background: url('../images/profile-card/main-background.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -13,14 +13,17 @@ body {
     background-color: var(--card-color);
     border-radius: 1.7rem;
     margin: 0 1rem;
+    border: 3px solid var(--inverse-color);
 }
 
-.personal-info h2, .statistic-container h2 {
+.personal-info h2,
+.statistic-container h2 {
     font-size: 2.7rem;
     font-weight: 700;
 }
 
-.personal-info h3, .statistic-container h3 {
+.personal-info h3,
+.statistic-container h3 {
     color: var(--inverse-color);
     font-size: 1.6rem;
     font: 300;
@@ -48,7 +51,7 @@ body {
 }
 
 .background-card-image {
-    border-radius: 1.7rem 1.7rem 0 0;
+    border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .avatar-image {

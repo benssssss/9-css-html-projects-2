@@ -30,6 +30,7 @@ body {
     height: 120px;
     border-radius: 0 0 1rem 1rem;
     width: 300px;
+    transition: .3s ease;
 }
 
 .main-text {
@@ -64,6 +65,11 @@ a {
 
 .picture:hover {
     filter: blur(2px);
+}
+
+.texts:hover {
+    background-color: #FFF;
+    color: #1a1a1a;
 }
 
 @media (min-width: 670px) {

@@ -12,8 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/data-storage/bg-mobile.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/data-storage/bg-mobile.png') no-repeat;
     background-size: cover;
 }
 
@@ -153,7 +152,7 @@ body {
     font-size: 4rem;
 }
 
-@media (min-width: 960px){
+@media (min-width: 960px) {
     .main {
         flex-direction: row;
         align-items: end;
@@ -197,4 +196,3 @@ body {
         border-radius: 1rem 1rem 0rem 1rem;
     }
 }
-
