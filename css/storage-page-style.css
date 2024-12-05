@@ -1,32 +1,26 @@
-html {
-    font-family: var(--main-font);
-    font-weight: 400;
-}
-
-body {
-    background-color: var(--dark-main);
-}
-
 .main-container {
+    font-family: var(--main-font);
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../images/data-storage/bg-mobile.png') no-repeat;
+    background-color: var(--dark-main);
+    background: url('../images/data-storage/bg-mobile.png') no-repeat;
     background-size: cover;
 }
 
+.main,
+.main-container {
+    align-items: center;
+}
+
 .main {
-    display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
+
 }
 
 .button-section,
 .info-section {
     background-color: var(--main-color);
-    width: 325px;
+    width: 300px;
 }
 
 .button-section {
@@ -44,11 +38,9 @@ body {
 }
 
 .buttons {
-    display: flex;
     gap: 1rem;
     margin-top: 2.8rem;
     justify-content: space-between;
-
 }
 
 .button {
@@ -72,7 +64,6 @@ body {
 }
 
 .space-amount {
-    display: flex;
     justify-content: space-between;
     margin-top: .5rem;
 }
@@ -98,10 +89,14 @@ body {
 }
 
 .back-bar {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
+}
+
+.gradient-bar,
+.main-soft-color-dot,
+.space-demo {
+    position: absolute;
 }
 
 .gradient-bar {
@@ -109,7 +104,6 @@ body {
     height: 14px;
     width: 70%;
     display: block;
-    position: absolute;
     left: 5px;
     align-content: center;
 }
@@ -119,15 +113,11 @@ body {
     width: 10px;
     background-color: var(--main-soft-color);
     border-radius: 50%;
-    position: absolute;
     right: 3px;
     top: 2px;
 }
 
 .space-demo {
-    display: flex;
-    justify-content: center;
-    position: absolute;
     right: 75px;
     margin-top: 1.7rem;
 }
@@ -136,7 +126,6 @@ body {
     background-color: var(--main-soft-color);
     width: 180px;
     padding: 1.4rem 2.5rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 1rem;
@@ -177,6 +166,7 @@ body {
     }
 
     .main-container {
+        background-color: var(--dark-main);
         background-image: url('../images/data-storage/bg-desktop.png');
         background-repeat: no-repeat;
         background-position: 0px 475px;
