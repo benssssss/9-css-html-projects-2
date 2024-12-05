@@ -1,20 +1,8 @@
-html {
+.main-container {
     font-family: var(--main-font);
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.background {
+    height: 100vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    display: flex;
     background: url('../images/order-summary/main-background.jpg') no-repeat center;
     background-size: cover;
 }
@@ -29,39 +17,47 @@ body {
 
 picture {
     display: block;
-    height: 170px;
+}
+
+picture,
+.plan-data,
+.payment-button a,
+.cancel-button a,
+.buttons-section {
     width: 100%;
+}
+
+.header-picture,
+picture {
+    height: 170px;
 }
 
 .header-picture {
     border-radius: 1.5rem 1.5rem 0 0;
-    object-fit: cover;
-    height: 170px;
 }
 
-.main-container {
+.container {
     padding: 2rem 4rem;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .description-texts {
-
-    align-self: center;
     text-align: center;
+}
+
+.secondary-text,
+.title {
+    font-weight: 900;
 }
 
 .title {
     color: var(--main-color);
-    font-weight: 900;
     font-size: 2.2rem;
 }
 
 .plan-data {
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     margin: 1.5rem 0;
     background-color: var(--dark-main-color);
     border-radius: 1rem;
@@ -69,7 +65,8 @@ picture {
 }
 
 .plan-data,
-.time-price {
+.time-price,
+.description-texts {
     align-self: center;
 }
 
@@ -82,28 +79,32 @@ picture {
 }
 
 .description,
-.price {
+.price,
+.secondary-text {
     color: var(--soft-color);
-    font-weight: 300;
+}
+
+.description,
+.price {
     line-height: 2.5rem;
 }
 
-.secondary-text {
-    color: var(--soft-color);
+.secondary-text,
+.change,
+.change a,
+.price {
     font-size: 1.4rem;
-    font-weight: 900;
 }
 
 .change,
 .change a {
-    font-size: 1.4rem;
     text-decoration: underline;
     color: var(--main-color);
 }
 
+.description,
 .price {
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .icon {
@@ -114,12 +115,10 @@ picture {
     text-align: center;
     margin: 1rem 0;
     align-self: center;
-    width: 100%;
 }
 
 .payment-button a,
 .cancel-button a {
-    width: 100%;
     display: block;
 }
 
@@ -127,7 +126,6 @@ picture {
     color: var(--very-soft-color);
     background-color: var(--main-color);
     padding: 1.5rem 3rem;
-    width: 100%;
     border-radius: 1.3rem;
 }
 
@@ -141,16 +139,13 @@ picture {
     margin: 2rem 0 1rem 0;
 }
 
-.soft-color a {
+.soft-color a,
+.change a:hover {
     color: var(--soft-color);
 }
 
 .payment-button a:hover {
     background-color: var(--dark-main-color);
-}
-
-.change a:hover {
-    color: var(--soft-color);
 }
 
 .cancel-button a:hover {
@@ -201,7 +196,7 @@ picture {
         width: 320px;
     }
 
-    .main-container {
+    .container {
         height: 370px;
         padding: 2rem;
         justify-content: space-between;

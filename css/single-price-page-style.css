@@ -1,8 +1,5 @@
-html {
-    font-family: var(--main-font);
-}
-
 .main-container {
+    font-family: var(--main-font);
     height: 100vh;
     align-items: center;
     background-color: var(--soft-gray);
@@ -18,7 +15,6 @@ html {
 }
 
 .youtube-icon {
-    display: flex;
     gap: .8rem;
     align-items: center;
 }
@@ -48,7 +44,10 @@ html {
 .title-description {
     height: 280px;
     padding: 4rem 2.6rem;
-    display: flex;
+}
+
+.title-description,
+.subscription-section {
     flex-direction: column;
     justify-content: space-between;
 }
@@ -59,46 +58,64 @@ html {
     height: 250px;
 }
 
+.footer,
+.title-description {
+    background-color: var(--main-color);
+}
+
 .title-description {
     border-radius: 1rem 1rem 0 0;
-    background-color: var(--main-color);
 }
 
 .subscription-section {
     background-color: var(--light-color);
     color: var(--main-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+}
+
+.subscription-section .plan-name,
+.why-us,
+.sign-up-button-text {
+    font-size: 3rem;
 }
 
 .subscription-section .plan-name,
 .why-us {
-    font-weight: 500;
     font-family: var(--title-font);
-    font-size: 3rem;
+}
+
+.subscription-section .plan-name,
+.why-us,
+.price-time .price,
+.plan-description,
+.sign-up-button-text {
+    font-weight: 500;
+}
+
+.plan-description,
+.price-time {
+    margin-top: 1rem;
 }
 
 .price-time {
     align-items: center;
     gap: 1.5rem;
-    margin-top: .8rem;
 }
 
 .price-time .price {
     font-size: 3.7rem;
-    font-weight: 500;
 }
 
 .plan-description {
     font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 1rem;
 }
 
 .footer {
     border-radius: 0 0 1rem 1rem;
-    background-color: var(--main-color);
+}
+
+.sign-up-button-text,
+.link-footer {
+    margin-top: 1.4rem;
 }
 
 .sign-up-button-text {
@@ -107,13 +124,6 @@ html {
     padding: 1rem 5rem;
     text-align: center;
     border-radius: 1.6rem;
-    font-size: 3rem;
-    font-weight: 400;
-    margin-top: 1.4rem;
-}
-
-.link-footer {
-    margin-top: 1.4rem;
 }
 
 .link-footer a {

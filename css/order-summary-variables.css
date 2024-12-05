@@ -1,8 +1,7 @@
 :root {
-    --main-font: "Red Hat Display";
-
     --main-color: #F4BF2A;
     --soft-color: hsl(225, 100%, 98%);
     --dark-main-color: #2B374C;
 
+    --main-font: "Red Hat Display";
 }
