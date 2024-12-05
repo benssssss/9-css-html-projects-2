@@ -1,4 +1,4 @@
-body {
+.main-container {
     font-family: var(--font-profile-card);
     color: var(--light-color);
     height: 100vh;
@@ -10,20 +10,20 @@ body {
 
 .main {
     width: 320px;
-    background-color: var(--card-color);
+    background-color: var(--dark-color);
     border-radius: 1.7rem;
     margin: 0 1rem;
     border: 3px solid var(--inverse-color);
 }
 
-.personal-info h2,
-.statistic-container h2 {
+.personal-info .name,
+.statistic-container .quantity-data {
     font-size: 2.7rem;
     font-weight: 700;
 }
 
-.personal-info h3,
-.statistic-container h3 {
+.personal-info .location,
+.statistic-container .data-class {
     color: var(--inverse-color);
     font-size: 1.6rem;
     font: 300;
