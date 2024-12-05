@@ -28,7 +28,7 @@
 ---
 
 Fylo Storage - Acesse seus arquivos
-Página de serviço de Armazenamento em Nuvem/Cloud onde você pode guardar arquivos em quase todos os formatos como PDFs, DOCs, Fotos e videos. Crie sua conta agora mesmo
+Página de serviço de Armazenamento em Nuvem/Cloud onde você pode guardar arquivos em quase todos os formatos como PDFs, DOCs, fotos e vídeos. Crie sua conta agora mesmo.
 
 YouTube Premium - Compre sua subscrição agora mesmo
 Página de subscrição de produto. Tudo o que você quiser assistir no YouTube. Sem interrupções. YouTube e YouTube Music off-line, sem anúncios e em segundo plano
@@ -43,7 +43,7 @@ Conclua sua compra - WOW - World of Warcraft Subsciption Section
 Página com informações sobre preço de diferentes mensalidade e benefícios de cada classe da subscrição do jogo World of Warcraft
 
 GTA 5 Chracters Cards - Cartão amostra triplo em coluna
-Página com 3 cartões trazendo informações dos três personagens principais do jogo eletreonico Grand Theft Auto V (GTA V)
+Página com 3 cartões trazendo informações dos três personagens principais do jogo eletrônico Grand Theft Auto V (GTA V)
 
 # Aprendizados
 
@@ -59,8 +59,8 @@ Página com 3 cartões trazendo informações dos três personagens principais d
 
 ---
 
-### Reduzir tamanho (mb) das imagens
-- As imagens das páginas estavam demorando pra carregar, então comprimi todas as imagens contidas nos projetos, a maioria estava em PNG o que estava fazendo elas ficarem muito pesadas, converti todas as imagens possiveis para JPG e tive uma redução de 40% no geral 
+### Reduzir tamanho (MB) das imagens
+- As imagens das páginas estavam demorando para carregar, então comprimi todas as imagens contidas nos projetos, a maioria estava em PNG o que estava fazendo elas ficarem muito pesadas, converti todas as imagens possíveis para JPG e tive uma redução de 40% no geral 
 
 ---
 
@@ -82,9 +82,9 @@ Página com 3 cartões trazendo informações dos três personagens principais d
 
 ---
 
-### Formas geometricas
+### Formas geométricas
 
-- Nunca havia usado formas geometricas, fiquei bastante perdido em como fazer esse triangulo invertido
+- Nunca havia usado formas geométricas, fiquei bastante perdido em como fazer esse triangulo invertido
 
 ![alt text](../main/readme/triangle.png)
 
@@ -96,7 +96,7 @@ Página com 3 cartões trazendo informações dos três personagens principais d
 
 ## Página Life Invader - Violet Profile
 
-- Gotaria de posicionar a foto redonda de uma maneira melhor, quando usei position nela e no cartão ela baixou e ficou encima do nome e localização, eu resolvi usando margin: top; mas tenho certeza que tem alguma maneira melhor de fazer isso 
+- Gostaria de posicionar a foto redonda de uma maneira melhor, quando usei position nela e no cartão ela baixou e ficou em cima do nome e localização, eu resolvi usando "margin: top;" mas tenho certeza que tem alguma maneira melhor de fazer isso 
 
 ![alt text](./readme/profile-page-no-margin.png)
 
